@@ -2,10 +2,8 @@
 
 Portafolio personal para mostrar proyectos en los que eh trabajado desde 0.
 
-- EL front esta hecho con HTML, CSS y JavaScript
-- EL back esta hecho con NodeJS y Express, para servir API
-
-Los proyectos y servicios se muestran a travez del consumo de la API
+- EL front esta hecho con HTML, CSS y JavaScript y compilado con Vite. El front consume la API desde el backend para mostrar los proyectos y servicios, como tambien para el envio de email para contacto.
+- La web ofrece la opcion de descargar curriculum, como tambien la opcion de enviar email para el contacto conmigo, tambien ofrece una vista de mis proyectos como de los servicios que puedo ofrecer.
 
 ## Autor ✒️
 
