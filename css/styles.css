@@ -22,7 +22,7 @@ body {
 	font-size: 16px;
 	color: var(--segundary);
 	background-color: var(--primary);
-	background-image: url("../logo/fondo-16-9.svg");
+	background-image: url("../public/fondo-16-9.svg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
