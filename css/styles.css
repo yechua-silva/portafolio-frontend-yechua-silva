@@ -679,8 +679,8 @@ textarea:focus {
 	}
 
 	.card-proyecto {
-		width: calc(50% - 20px);
-		margin-bottom: 20px;
+		width: calc(49% - 20px);
+		margin: 0 11px 20px 11px;
 	}
 
 	.servicios__list {
@@ -773,6 +773,8 @@ textarea:focus {
 
 	.card-proyecto {
 		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
 	}
 	.servicios__list {
 		flex-direction: column;
