@@ -219,6 +219,7 @@ header {
 .proyectos {
 	width: 90%;
 	margin: 20px auto 10% auto;
+	padding: 0;
 }
 
 .proyectos__list {
@@ -226,7 +227,8 @@ header {
 	max-width: 1300px;
 	margin: 0 auto;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
+	flex-wrap: wrap;
 }
 
 .card-proyecto {
@@ -235,6 +237,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	margin: 20px 11px 10px 11px;
 	background-color: var(--primary2);
 	border-radius: 10px;
 	box-shadow: 4px 4px 8px var(--sombra);
