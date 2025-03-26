@@ -1,3 +1,6 @@
+import resultado from './data/proyectos.json'
+
+
 // Selectores
 const proyectosDivLista = document.querySelector(".proyectos__list");
 
@@ -91,12 +94,8 @@ const listar = (proyectos = []) => {
 };
 
 // Peticion de proyectos
-const mostarProyecto = () => {
-	const url = import.meta.env.VITE_URL_BACKEND;
-	fetch(url)
-		.then((resp) => resp.json())
-		.then((resultado) => listar(resultado.proyectos))
-		.catch((err) => console.log(err));
+const mostarProyecto = () => {	
+	listar(resultado.proyectos)
 };
 
 mostarProyecto();

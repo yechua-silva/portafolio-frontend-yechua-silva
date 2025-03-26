@@ -1,0 +1,92 @@
+{
+	"proyectos": [
+		{
+			"nombre": "Administrador de Pacientes",
+			"img": "../proyecto-apv.png",
+			"sitio": "https://mern-apv-yechua-silva.netlify.app/",
+			"tecnologias": [
+				" Javascript",
+				" React",
+				" Tailwind",
+				" NodeJS",
+				" Express",
+				" Postman",
+				" MongoDB"
+			],
+			"github": ["https://github.com/yechua-silva/MERN-apv-backend"],
+			"descripcion": "Este proyecto combina un frontend interactivo en React con un backend seguro basado en MongoDB con Mongoose. El backend incluye validación de usuarios, seguridad de contraseñas, confirmación de correo y restablecimiento de contraseñas. Se realizaron pruebas en Postman y se manejan correos con Mailtrap Brevo."
+		},
+		{
+			"nombre": "Todo con React",
+			"img": "../proyecto-todo-react.png",
+			"sitio": "https://todo-react-yechua.netlify.app/",
+			"tecnologias": [" Javascript", " React", " Tailwind"],
+			"github": ["https://github.com/yechua-silva/Todo-React"],
+			"descripcion": "Este proyecto de frontend con React, usa Tailwind para el estilizado y el diseño responsivo, tambien asi para el dark mode, igualmente se utiliza el localstorage para la persistencia de las tareas por parte del navegador. Se implemento igualmente drag and drop con la libreria @hello-pangea"
+		},
+		{
+			"nombre": "Cotizador con React",
+			"img": "../proyecto-cotizador-react.png",
+			"sitio": "https://cotizador-prestamos-react-yechua.netlify.app/",
+			"tecnologias": [" Javascript", " React", " Tailwind"],
+			"github": [
+				"https://github.com/yechua-silva/proyecto-cotizador-prestamos-react"
+			],
+			"descripcion": "El proyecto es un cotizador de préstamos desarrollado con React y Vite. Permite a los usuarios seleccionar un rango de préstamos desde 0 hasta 20000 USD, así como elegir la duración en meses, con opciones de 6, 12 y 24 meses. Con base en estos datos, el sistema calcula y muestra el total a pagar y el pago mensual correspondiente."
+		},
+		{
+			"nombre": "Portafolio Yechua Silva",
+			"img": "../proyecto-portafolio.png",
+			"sitio": "https://portafolio-yechua-silva.netlify.app/",
+			"tecnologias": [
+				" Javascript",
+				" React",
+				"HTML",
+				"CSS",
+				" NodeJS",
+				" Express"
+			],
+			"github": [
+				"https://github.com/yechua-silva/portafolio-frontend-yechua-silva"
+			],
+			"descripcion": "Proyecto que muestra todo mis demas proyectos, se divide en el front y el back, en donde el primero consume datos de una API hecha con el segundo para mostrar los proyectos y servicios de forma dinamica"
+		},
+		{
+			"nombre": "Agencia de Viajes",
+			"img": "../proyecto-agencia-viajes.png",
+			"sitio": "https://agecia-viajes-node.onrender.com/",
+			"tecnologias": [
+				" Javascript",
+				" NodeJS",
+				" Express",
+				" Pug",
+				" MySQL",
+				" PostgreSQL"
+			],
+			"github": [
+				"https://github.com/yechua-silva/Proyecto-Agencia-viajes-node"
+			],
+			"descripcion": "Este proyecto es una aplicación web desarrollada con Node.js y Express.js para el servidor, y utiliza PostgreSQL con Sequelize como base de datos. La interfaz de usuario se construye con HTML y Pug, lo que permite vistas dinámicas. Esto facilita la creación de una experiencia interactiva para los usuarios y una gestión eficiente de datos."
+		}
+	],
+	"servicios": [
+		{
+			"titulo": "Landing Page",
+			"icono": "fa-star",
+			"subtitulo": "Promociona tu Marca!!",
+			"descripcion": "Domina la primera impresión en línea con nuestras Landing Pages estratégicamente diseñadas. Convierte visitantes en clientes mientras cautivas con un diseño atractivo y convincente. ¡Tu próxima victoria comienza aquí!"
+		},
+		{
+			"titulo": "Desarrollo Web",
+			"icono": "fa-code",
+			"subtitulo": "Desarrollo desde 0, o bien, implementación de una nueva funcionalidad en uno existente!!",
+			"descripcion": "Deja que tu visión cobre vida en la web con nuestro desarrollo completo. Obtén una plataforma potente y autoadministrada que refleje tu negocio. Juntos construiremos tu presencia en línea con funcionalidades sorprendentes y un diseño impactante."
+		},
+		{
+			"titulo": "E-commerce",
+			"icono": "fa-cart-shopping",
+			"subtitulo": "Cración de sitio web a medida, optimizado para maximizar tus ventas!!",
+			"descripcion": "Lleva tus productos al siguiente nivel con nuestra solución de E-commerce personalizada. Desde catálogos a compras seguras, creamos la experiencia de compra en línea que tus clientes desean. Aumenta tus ventas y destaca en el mercado digital."
+		}
+	]
+}

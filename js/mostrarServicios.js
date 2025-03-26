@@ -1,3 +1,5 @@
+import resultado from './data/proyectos.json'
+
 const serviciosLista = document.querySelector(".servicios__list");
 const MensajeContacto = document.querySelector("#message");
 
@@ -38,9 +40,9 @@ const listarServicios = (servicios = []) => {
 		boton.classList.add("btn", `servicio-${i + 1}`, "btn-contactar");
 		boton.textContent = "Contactar";
 
-		listaServicioBtn.push(boton);
+		// listaServicioBtn.push(boton);
 
-		divBtn.appendChild(boton);
+		// divBtn.appendChild(boton);
 
 		div.appendChild(servicioIcono);
 		div.appendChild(servicioTitulo);
@@ -98,13 +100,7 @@ const contactarServicios = (array = []) => {
 
 // Llamada api de servicio
 const mostrarServicios = () => {
-	const url = import.meta.env.VITE_URL_BACKEND;
-
-	fetch(url)
-		.then((resp) => resp.json())
-		.then((resultado) => listarServicios(resultado.servicios))
-		.then((serviciosListos) => contactarServicios(serviciosListos))
-		.catch((err) => console.log(err));
+	listarServicios(resultado.servicios)
 };
 
 mostrarServicios();
